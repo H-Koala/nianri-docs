@@ -74,6 +74,14 @@
             ]
           },
           {
+            "id": "widgets-entry",
+            "title": "小组件与便捷录入（V0.4 起）",
+            "paragraphs": [
+              "应用在本机与小组件扩展共享必要的日期快照，包括日期规则、标题和语言，不包含备注或购买信息，不上传至开发者服务器。标题可能出现在主屏幕或锁屏；可在念日的小组件设置中关闭标题显示。iOS 控制已展示内容的更新时机。",
+              "便捷录入读取你主动选择的 CSV/TSV 文件或粘贴的表格，在本机预览和校验，确认后仅追加勾选的有效日期，不覆盖原资料。JSON 备份导入则会在确认后替换资料库。文件提供商可能按其自身规则从云端下载你选择的文件。"
+            ]
+          },
+          {
             "id": "purchases",
             "title": "Apple 购买与权益",
             "paragraphs": [
@@ -155,9 +163,19 @@
             "answer": "免费版可保存最多 10 个日期，每个日期使用一项提醒，并支持农历、公历及备份。Pro 将日期容量扩展至 1,000 个，并提供自定义分类与多项提前提醒。两个方案共用通知排程容量，购买 Pro 不会取消系统与应用的提醒限制，也不代表 1,000 个日期都已同时排程。权益变化不会自动删除已保存的资料。"
           },
           {
+            "id": "widgets",
+            "question": "如何添加小组件？",
+            "answer": "V0.4 起，先在念日保存日期，再通过系统主屏幕编辑菜单添加念日小组件。小尺寸显示下一项，中尺寸最多三项；锁屏矩形小组件从系统锁屏自定界面添加。可点击打开相应日期，在念日设置中隐藏标题或请求更新。刷新时机由 iOS 决定，小组件不会额外发送通知。"
+          },
+          {
+            "id": "quick-entry",
+            "question": "如何批量添加日期？",
+            "answer": "V0.4 起，从首页导入按钮或设置→便捷录入，选 CSV/TSV 文件或粘贴表格。必需列为 title、date，可查看三语示例。预览后勾选有效条目再追加；无效日期和重复条目不可选。最多1000行、256 KB，仍受免费10条/Pro1000条和分类、提醒权限限制。JSON备份导入会替换资料库，请注意区别。"
+          },
+          {
             "id": "backups",
             "question": "换设备或重装后，日期会自动回来吗？",
-            "answer": "念日没有应用账号或自动跨设备同步。请在原设备设置中导出备份，再在新设备导入；系统设备备份是否恢复应用数据取决于系统设置与恢复方式。导入会替换当前资料，且新增内容仍需符合当前权益；当前备份文件上限为 16 MiB。导出文件未加密。"
+            "answer": "念日没有应用账号或自动跨设备同步。请在原设备设置中导出备份，再在新设备导入；系统设备备份是否恢复应用数据取决于系统设置与恢复方式。JSON 备份导入会替换当前资料，且新增内容仍需符合当前权益；当前备份文件上限为 16 MiB。导出文件未加密。"
           },
           {
             "id": "calendar",
@@ -214,6 +232,14 @@
             "paragraphs": [
               "記錄使用裝置內的 資料庫儲存，念日不提供應用程式層面的自動雲端同步。依照你的裝置設定，系統備份可能包含應用程式資料。",
               "你可主動將 JSON 備份匯出至「檔案」、iCloud Drive 或其他自選位置。匯出檔案未加密，可能含姓名、日期和備註，請自行選擇可信的儲存位置與分享對象。所選儲存服務依其自身規則處理檔案。"
+            ]
+          },
+          {
+            "id": "widgets-entry",
+            "title": "小工具與便捷輸入（自 V0.4 起）",
+            "paragraphs": [
+              "App 在本機與小工具擴充功能共享必要的日期快照，包括日期規則、標題與語言，不包含備註或購買資訊，不上傳至開發者伺服器。標題可能出現在主畫面或鎖定畫面；可在念日的小工具設定中關閉標題顯示。iOS 控制已顯示內容的更新時機。",
+              "便捷輸入讀取你主動選取的 CSV/TSV 檔案或貼上的表格，在本機預覽與檢查，確認後僅新增勾選的有效日期，不覆蓋原資料。JSON 備份匯入則會在確認後取代資料庫。檔案提供者可能依自身規則從雲端下載你選擇的檔案。"
             ]
           },
           {
@@ -298,9 +324,19 @@
             "answer": "免費版可儲存最多 10 個日期，每個日期使用一項提醒，並支援農曆、陽曆及備份。Pro 將日期容量擴展至 1,000 個，並提供自訂分類與多項提前提醒。兩個方案共用通知排程容量，購買 Pro 不會取消系統與應用程式的提醒限制，也不代表 1,000 個日期都已同時排程。權益變更不會自動刪除已儲存的資料。"
           },
           {
+            "id": "widgets",
+            "question": "如何加入小工具？",
+            "answer": "自 V0.4 起，先在念日儲存日期，再透過系統主畫面編輯選單加入念日小工具。小尺寸顯示下一項，中尺寸最多三項；鎖定畫面矩形小工具從系統鎖定畫面自訂介面加入。可點按開啟對應日期，在念日設定中隱藏標題或要求更新。更新時機由 iOS 決定，小工具不會額外發送通知。"
+          },
+          {
+            "id": "quick-entry",
+            "question": "如何批次新增日期？",
+            "answer": "自 V0.4 起，從首頁匯入按鈕或設定→便捷輸入，選取 CSV/TSV 檔案或貼上表格。必要欄為 title、date，可查看三語範例。預覽後勾選有效項目再新增；無效日期與重複項目不可選。最多1000列、256 KB，仍受免費10筆/Pro1000筆及分類、提醒權限限制。JSON備份匯入會取代資料庫，請注意差異。"
+          },
+          {
             "id": "backups",
             "question": "換裝置或重新安裝後，日期會自動回來嗎？",
-            "answer": "念日沒有應用程式帳號或自動跨裝置同步。請在原裝置設定中匯出備份，再在新裝置匯入；系統裝置備份是否回復應用程式資料取決於系統設定與回復方式。匯入會取代目前資料，且新增內容仍須符合目前權益；目前備份檔案上限為 16 MiB。匯出檔案未加密。"
+            "answer": "念日沒有應用程式帳號或自動跨裝置同步。請在原裝置設定中匯出備份，再在新裝置匯入；系統裝置備份是否回復應用程式資料取決於系統設定與回復方式。JSON 備份匯入會取代目前資料，且新增內容仍須符合目前權益；目前備份檔案上限為 16 MiB。匯出檔案未加密。"
           },
           {
             "id": "calendar",
@@ -357,6 +393,14 @@
             "paragraphs": [
               "Records are stored in an on-device local database. DayMemo does not provide automatic app-level cloud synchronization. Depending on your device settings, system backups may include app data.",
               "You can choose to export a JSON backup to Files, iCloud Drive or another location. Exported files are not encrypted and may contain names, dates and notes. Choose storage locations and recipients carefully. Your chosen storage provider handles files under its own policies."
+            ]
+          },
+          {
+            "id": "widgets-entry",
+            "title": "Widgets and Quick Entry (from V0.4)",
+            "paragraphs": [
+              "The app shares a minimal on-device date snapshot with its widget extension, including date rules, titles and language, without notes or purchase details. It is not uploaded to a developer server. Titles may appear on the Home Screen or Lock Screen; you can hide them in Widget Settings. iOS controls when displayed widgets refresh.",
+              "Quick Entry reads CSV/TSV files you select or table text you paste, previews and validates it locally, then appends only selected valid dates after confirmation. It preserves existing records. JSON backup import instead replaces the library after confirmation. Your chosen file provider may download selected files from its cloud service under its own policies."
             ]
           },
           {
@@ -441,9 +485,19 @@
             "answer": "Free includes up to 10 dates, one reminder option per date, Gregorian and lunar calendars, and backups. Pro expands storage to 1,000 dates and adds custom categories and multiple advance reminders. Both plans share the notification queue capacity. Pro does not remove system or app reminder limits, and storing 1,000 dates does not mean they are all scheduled at once. A change in purchase access does not automatically delete saved data."
           },
           {
+            "id": "widgets",
+            "question": "How do I add a widget?",
+            "answer": "From V0.4, save dates in DayMemo, then add a DayMemo widget through the system Home Screen editing menu. Small shows the next date and medium shows up to three. Add the rectangular Lock Screen widget through system Lock Screen customization. Tap to open the corresponding date. Hide titles or request updates in Widget Settings. iOS controls refresh timing; widgets do not send additional notifications."
+          },
+          {
+            "id": "quick-entry",
+            "question": "How do I add dates in bulk?",
+            "answer": "From V0.4, open Quick Entry from the Home Screen import button or Settings, then choose a CSV/TSV file or paste a table. Required columns are title and date; localized examples are included. Preview and select valid rows before appending. Invalid dates and duplicates cannot be selected. Limits are 1,000 rows and 256 KB, subject to Free/Pro date, category and reminder access. JSON backup import replaces the library instead."
+          },
+          {
             "id": "backups",
             "question": "Will dates return automatically after reinstalling or changing devices?",
-            "answer": "DayMemo has no app account or automatic cross-device sync. Export a backup on the old device and import it on the new one. Whether a system device backup restores app data depends on your settings and restore method. Import replaces the current library, and additions must fit your current access. The current backup file limit is 16 MiB. Exported files are not encrypted."
+            "answer": "DayMemo has no app account or automatic cross-device sync. Export a backup on the old device and import it on the new one. Whether a system device backup restores app data depends on your settings and restore method. JSON backup import replaces the current library, and additions must fit your current access. The current backup file limit is 16 MiB. Exported files are not encrypted."
           },
           {
             "id": "calendar",
